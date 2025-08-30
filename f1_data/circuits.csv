@@ -1,0 +1,24 @@
+circuitId,circuitRef,name,location,country,lat,lng,alt
+1,bahrain_international_circuit,Bahrain International Circuit,Location_1,Country_1,-22.58277860747475,162.25715030756982,1463.9878836228102
+2,jeddah_corniche_circuit,Jeddah Corniche Circuit,Location_2,Country_2,17.758527155466595,-123.83328944072285,311.9890406724053
+3,albert_park,Albert Park,Location_3,Country_3,-79.5449498097241,131.82341247897665,1202.2300234864176
+4,baku_city_circuit,Baku City Circuit,Location_4,Country_4,37.45306400328819,-172.58958205351112,1939.8197043239886
+5,miami_international_autodrome,Miami International Autodrome,Location_5,Country_5,59.839675344075914,-103.55792015582058,363.64993441420125
+6,imola,Imola,Location_6,Country_6,-56.98718822638191,-70.47279253456642,1049.5128632644758
+7,monaco,Monaco,Location_7,Country_7,-12.249896644419167,-75.1575095287049,1223.705789444759
+8,circuit_de_barcelona_catalunya,Circuit de Barcelona-Catalunya,Location_8,Country_8,-64.89110508263246,-74.82792652732147,732.7236865873834
+9,circuit_gilles_villeneuve,Circuit Gilles Villeneuve,Location_9,Country_9,-7.907402840933528,102.66334610148488,399.34756431671946
+10,red_bull_ring,Red Bull Ring,Location_10,Country_10,2.562198914450093,33.26924479033528,92.90082543999544
+11,silverstone,Silverstone,Location_11,Country_11,19.358073342258905,-118.61131547257506,130.10318597055903
+12,hungaroring,Hungaroring,Location_12,Country_12,80.79939670559997,167.62753190684134,1616.7946962329222
+13,spa_francorchamps,Spa-Francorchamps,Location_13,Country_13,-35.16952154879328,-144.8380389577018,1368.4660530243139
+14,zandvoort,Zandvoort,Location_14,Country_14,-10.772551126871761,-136.06623545587962,990.3538202225403
+15,monza,Monza,Location_15,Country_15,-83.81006619926069,147.35534474836152,517.5599632000338
+16,marina_bay_street_circuit,Marina Bay Street Circuit,Location_16,Country_16,29.254011183716756,-67.78401260781206,1040.1360423556216
+17,suzuka,Suzuka,Location_17,Country_17,8.407850281790331,-113.45239601081026,1939.1692555291172
+18,losail_international_circuit,Losail International Circuit,Location_18,Country_18,49.52390820500062,158.21961896310808,1789.6547008552977
+19,circuit_of_the_americas,Circuit of the Americas,Location_19,Country_19,17.62199618599533,151.87472460832208,176.985004103839
+20,mexico_city,Mexico City,Location_20,Country_20,-54.72308476455387,-163.71817599220628,650.6606615265287
+21,interlagos,Interlagos,Location_21,Country_21,-20.038087855893238,-82.31434856139747,1657.4750183038586
+22,las_vegas_strip_circuit,Las Vegas Strip Circuit,Location_22,Country_22,-25.784401195153933,-78.86357651254292,1085.392166316497
+23,yas_marina_circuit,Yas Marina Circuit,Location_23,Country_23,-64.63363950454273,108.79091307145427,149.10128735954166
