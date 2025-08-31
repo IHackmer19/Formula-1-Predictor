@@ -114,35 +114,35 @@ function updateActiveNavLink() {
 function loadPredictionsData() {
     console.log('📊 Loading predictions data...');
     
-    // Try to load F1DB live data first
-    loadJSONData('data/f1db_predictions.json')
+    // Try to load F1DB focused data first
+    loadJSONData('data/f1db_focused_predictions.json')
         .then(data => {
             predictionsData = data;
-            currentDataSource = 'f1db';
-            console.log('✅ Loaded F1DB live predictions');
+            currentDataSource = 'f1db_focused';
+            console.log('✅ Loaded F1DB focused predictions');
             populatePredictions(data);
         })
         .catch(() => {
-            // Fall back to F1DB CSV
-            loadCSVData('data/f1db_predictions.csv')
+            // Fall back to F1DB focused CSV
+            loadCSVData('data/f1db_focused_predictions.csv')
                 .then(data => {
                     predictionsData = data;
-                    currentDataSource = 'f1db';
-                    console.log('✅ Loaded F1DB CSV predictions');
+                    currentDataSource = 'f1db_focused';
+                    console.log('✅ Loaded F1DB focused CSV predictions');
                     populatePredictions(data);
                 })
                 .catch(() => {
                     // Fall back to any available predictions
-                    loadCSVData('../f1db_2025_predictions.csv')
+                    loadCSVData('../f1db_focused_2025_predictions.csv')
                         .then(data => {
                             predictionsData = data;
-                            currentDataSource = 'f1db';
-                            console.log('✅ Loaded F1DB backup predictions');
+                            currentDataSource = 'f1db_focused';
+                            console.log('✅ Loaded F1DB focused backup predictions');
                             populatePredictions(data);
                         })
                         .catch(error => {
-                            console.error('❌ Failed to load F1DB predictions:', error);
-                            showErrorMessage('F1DB data not available - please run f1db_neural_predictor.py');
+                            console.error('❌ Failed to load F1DB focused predictions:', error);
+                            showErrorMessage('F1DB data not available - please run f1db_focused_predictor.py');
                         });
                 });
         });

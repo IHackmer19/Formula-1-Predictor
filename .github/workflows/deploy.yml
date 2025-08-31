@@ -2,9 +2,7 @@ name: Deploy F1 Predictor to GitHub Pages
 
 on:
   push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:

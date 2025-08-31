@@ -1,0 +1,130 @@
+{
+  "2025_drivers": [
+    {
+      "id": "max-verstappen",
+      "name": "Max Verstappen",
+      "constructor": "red-bull",
+      "constructor_name": "Red Bull"
+    },
+    {
+      "id": "sergio-perez",
+      "name": "Sergio Pérez",
+      "constructor": "red-bull",
+      "constructor_name": "Red Bull"
+    },
+    {
+      "id": "charles-leclerc",
+      "name": "Charles Leclerc",
+      "constructor": "ferrari",
+      "constructor_name": "Ferrari"
+    },
+    {
+      "id": "lewis-hamilton",
+      "name": "Lewis Hamilton",
+      "constructor": "ferrari",
+      "constructor_name": "Ferrari"
+    },
+    {
+      "id": "george-russell",
+      "name": "George Russell",
+      "constructor": "mercedes",
+      "constructor_name": "Mercedes"
+    },
+    {
+      "id": "lando-norris",
+      "name": "Lando Norris",
+      "constructor": "mclaren",
+      "constructor_name": "McLaren"
+    },
+    {
+      "id": "carlos-sainz-jr",
+      "name": "Carlos Sainz",
+      "constructor": "williams",
+      "constructor_name": "Williams"
+    },
+    {
+      "id": "fernando-alonso",
+      "name": "Fernando Alonso",
+      "constructor": "aston-martin",
+      "constructor_name": "Aston Martin"
+    },
+    {
+      "id": "lance-stroll",
+      "name": "Lance Stroll",
+      "constructor": "aston-martin",
+      "constructor_name": "Aston Martin"
+    },
+    {
+      "id": "esteban-ocon",
+      "name": "Esteban Ocon",
+      "constructor": "alpine",
+      "constructor_name": "Alpine"
+    },
+    {
+      "id": "pierre-gasly",
+      "name": "Pierre Gasly",
+      "constructor": "alpine",
+      "constructor_name": "Alpine"
+    },
+    {
+      "id": "alexander-albon",
+      "name": "Alexander Albon",
+      "constructor": "williams",
+      "constructor_name": "Williams"
+    },
+    {
+      "id": "logan-sargeant",
+      "name": "Logan Sargeant",
+      "constructor": "williams",
+      "constructor_name": "Williams"
+    },
+    {
+      "id": "valtteri-bottas",
+      "name": "Valtteri Bottas",
+      "constructor": "kick-sauber",
+      "constructor_name": "Kick Sauber"
+    },
+    {
+      "id": "guanyu-zhou",
+      "name": "Guanyu Zhou",
+      "constructor": "kick-sauber",
+      "constructor_name": "Kick Sauber"
+    },
+    {
+      "id": "kevin-magnussen",
+      "name": "Kevin Magnussen",
+      "constructor": "haas",
+      "constructor_name": "Haas"
+    },
+    {
+      "id": "nico-hulkenberg",
+      "name": "Nico Hülkenberg",
+      "constructor": "haas",
+      "constructor_name": "Haas"
+    },
+    {
+      "id": "daniel-ricciardo",
+      "name": "Daniel Ricciardo",
+      "constructor": "rb",
+      "constructor_name": "Racing Bulls"
+    },
+    {
+      "id": "yuki-tsunoda",
+      "name": "Yuki Tsunoda",
+      "constructor": "rb",
+      "constructor_name": "Racing Bulls"
+    }
+  ],
+  "current_constructors": [
+    "red-bull",
+    "ferrari", 
+    "mercedes",
+    "mclaren",
+    "aston-martin",
+    "alpine",
+    "williams",
+    "kick-sauber",
+    "haas",
+    "rb"
+  ]
+}
