@@ -4,7 +4,10 @@
   "github_pages_ready": true,
   "local_server_tested": true,
   "data_integrated": true,
-  "f1db_data_available": true,
+  "f1db_focused_data_available": true,
+  "current_2025_drivers": 19,
+  "current_constructors": 10,
+  "data_years": "2020-2024",
   "features": [
     "Interactive 2025 F1 predictions",
     "Real-time data visualization",
