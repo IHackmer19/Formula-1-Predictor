@@ -4,6 +4,7 @@
   "github_pages_ready": true,
   "local_server_tested": true,
   "data_integrated": true,
+  "f1db_data_available": true,
   "features": [
     "Interactive 2025 F1 predictions",
     "Real-time data visualization",
