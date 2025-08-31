@@ -114,37 +114,47 @@ function updateActiveNavLink() {
 function loadPredictionsData() {
     console.log('📊 Loading predictions data...');
     
-    // Try to load real predictions first, then fall back to sample
-    loadCSVData('../f1_2025_predictions_kaggle.csv')
+    // Try to load F1DB live data first
+    loadJSONData('data/f1db_predictions.json')
         .then(data => {
             predictionsData = data;
-            currentDataSource = 'kaggle';
-            console.log('✅ Loaded real Kaggle predictions');
+            currentDataSource = 'f1db';
+            console.log('✅ Loaded F1DB live predictions');
             populatePredictions(data);
         })
         .catch(() => {
-            // Fall back to sample data
-            loadCSVData('../f1_2025_predictions_sample.csv')
+            // Fall back to F1DB CSV
+            loadCSVData('data/f1db_predictions.csv')
                 .then(data => {
                     predictionsData = data;
-                    currentDataSource = 'sample';
-                    console.log('✅ Loaded sample predictions');
+                    currentDataSource = 'f1db';
+                    console.log('✅ Loaded F1DB CSV predictions');
                     populatePredictions(data);
                 })
                 .catch(() => {
-                    // Fall back to default sample data
-                    loadCSVData('../f1_2025_predictions.csv')
+                    // Fall back to any available predictions
+                    loadCSVData('../f1db_2025_predictions.csv')
                         .then(data => {
                             predictionsData = data;
-                            currentDataSource = 'sample';
-                            console.log('✅ Loaded default predictions');
+                            currentDataSource = 'f1db';
+                            console.log('✅ Loaded F1DB backup predictions');
                             populatePredictions(data);
                         })
                         .catch(error => {
-                            console.error('❌ Failed to load any predictions data:', error);
-                            showErrorMessage('Failed to load predictions data');
+                            console.error('❌ Failed to load F1DB predictions:', error);
+                            showErrorMessage('F1DB data not available - please run f1db_neural_predictor.py');
                         });
                 });
+        });
+}
+
+function loadJSONData(url) {
+    return fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
         });
 }
 
@@ -196,6 +206,9 @@ function populatePredictions(data) {
     
     // Update data source indicator
     updateDataSourceIndicator();
+    
+    // Add F1DB version info if available
+    addF1DBVersionInfo();
     
     // Initialize charts
     initializeCharts(data);
@@ -338,10 +351,8 @@ function updateDataSourceIndicator() {
     indicator.className = 'data-source-indicator';
     indicator.innerHTML = `
         <div class="indicator-content">
-            <span class="indicator-icon">${currentDataSource === 'kaggle' ? '🔥' : '📊'}</span>
-            <span class="indicator-text">
-                ${currentDataSource === 'kaggle' ? 'Real Kaggle Data' : 'Sample Data'}
-            </span>
+            <span class="indicator-icon">🔥</span>
+            <span class="indicator-text">F1DB Live Data</span>
         </div>
     `;
     
@@ -350,7 +361,7 @@ function updateDataSourceIndicator() {
         position: fixed;
         top: 80px;
         right: 20px;
-        background: ${currentDataSource === 'kaggle' ? 'var(--success-color)' : 'var(--warning-color)'};
+        background: var(--success-color);
         color: var(--dark-bg);
         padding: 0.5rem 1rem;
         border-radius: 25px;
@@ -358,9 +369,39 @@ function updateDataSourceIndicator() {
         font-size: 0.8rem;
         z-index: 999;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        animation: pulse 2s infinite;
     `;
     
     document.body.appendChild(indicator);
+}
+
+function addF1DBVersionInfo() {
+    // Add F1DB version info to footer or header
+    fetch('../f1db_version.txt')
+        .then(response => response.text())
+        .then(version => {
+            const versionBadge = document.createElement('div');
+            versionBadge.innerHTML = `
+                <div style="
+                    position: fixed;
+                    bottom: 20px;
+                    right: 20px;
+                    background: rgba(0, 0, 0, 0.8);
+                    color: #ffd700;
+                    padding: 0.5rem 1rem;
+                    border-radius: 15px;
+                    font-size: 0.7rem;
+                    z-index: 998;
+                    border: 1px solid #333;
+                ">
+                    F1DB ${version.trim()}
+                </div>
+            `;
+            document.body.appendChild(versionBadge);
+        })
+        .catch(() => {
+            console.log('F1DB version info not available');
+        });
 }
 
 function setupEventListeners() {
