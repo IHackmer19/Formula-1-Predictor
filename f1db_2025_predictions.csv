@@ -1,21 +1,21 @@
 driverId,predicted_position,prediction_value,id,firstName,lastName,fullName,constructorId,id_constructor,name,driver_name,team
-alexander-albon,1,8.767269,alexander-albon,Alexander,Albon,Alexander Albon,williams,williams,Williams,Alexander Albon,Williams
-andrea-kimi-antonelli,2,8.767269,andrea-kimi-antonelli,Andrea,Antonelli,Andrea Kimi Antonelli,mercedes,mercedes,Mercedes,Andrea Kimi Antonelli,Mercedes
-carlos-sainz-jr,3,8.767269,carlos-sainz-jr,Carlos,Sainz Jr.,Carlos Sainz Vázquez de Castro,williams,williams,Williams,Carlos Sainz Vázquez de Castro,Williams
-charles-leclerc,4,8.767269,charles-leclerc,Charles,Leclerc,Charles Marc Hervé Perceval Leclerc,ferrari,ferrari,Ferrari,Charles Marc Hervé Perceval Leclerc,Ferrari
-daniel-ricciardo,5,8.767269,daniel-ricciardo,Daniel,Ricciardo,Daniel Ricciardo,rb,rb,RB,Daniel Ricciardo,RB
-esteban-ocon,6,8.767269,esteban-ocon,Esteban,Ocon,Esteban Ocon,haas,haas,Haas,Esteban Ocon,Haas
-fernando-alonso,7,8.767269,fernando-alonso,Fernando,Alonso,Fernando Alonso Díaz,aston-martin,aston-martin,Aston Martin,Fernando Alonso Díaz,Aston Martin
-franco-colapinto,8,8.767269,franco-colapinto,Franco,Colapinto,Franco Alejandro Colapinto,alpine,alpine,Alpine,Franco Alejandro Colapinto,Alpine
-gabriel-bortoleto,9,8.767269,gabriel-bortoleto,Gabriel,Bortoleto,Gabriel Bortoleto Oliveira,kick-sauber,kick-sauber,Kick Sauber,Gabriel Bortoleto Oliveira,Kick Sauber
-george-russell,10,8.767269,george-russell,George,Russell,George Russell,mercedes,mercedes,Mercedes,George Russell,Mercedes
-guanyu-zhou,11,8.767269,guanyu-zhou,Guanyu,Zhou,Guanyu Zhou,kick-sauber,kick-sauber,Kick Sauber,Guanyu Zhou,Kick Sauber
-isack-hadjar,12,8.767269,isack-hadjar,Isack,Hadjar,Isack Alexandre Hadjar,racing-bulls,racing-bulls,Racing Bulls,Isack Alexandre Hadjar,Racing Bulls
-jack-doohan,13,8.767269,jack-doohan,Jack,Doohan,Jack Doohan,alpine,alpine,Alpine,Jack Doohan,Alpine
-kevin-magnussen,14,8.767269,kevin-magnussen,Kevin,Magnussen,Kevin Jan Magnussen,haas,haas,Haas,Kevin Jan Magnussen,Haas
-lance-stroll,15,8.767269,lance-stroll,Lance,Stroll,Lance Stroll,aston-martin,aston-martin,Aston Martin,Lance Stroll,Aston Martin
-lando-norris,16,8.767269,lando-norris,Lando,Norris,Lando Norris,mclaren,mclaren,McLaren,Lando Norris,McLaren
-lewis-hamilton,17,8.767269,lewis-hamilton,Lewis,Hamilton,Lewis Carl Davidson Hamilton,ferrari,ferrari,Ferrari,Lewis Carl Davidson Hamilton,Ferrari
-liam-lawson,18,8.767269,liam-lawson,Liam,Lawson,Liam Lawson,racing-bulls,racing-bulls,Racing Bulls,Liam Lawson,Racing Bulls
-logan-sargeant,19,8.767269,logan-sargeant,Logan,Sargeant,Logan Hunter Sargeant,williams,williams,Williams,Logan Hunter Sargeant,Williams
-max-verstappen,20,8.767269,max-verstappen,Max,Verstappen,Max Emilian Verstappen,red-bull,red-bull,Red Bull,Max Emilian Verstappen,Red Bull
+alexander-albon,1,9.424513,alexander-albon,Alexander,Albon,Alexander Albon,williams,williams,Williams,Alexander Albon,Williams
+andrea-kimi-antonelli,2,9.424513,andrea-kimi-antonelli,Andrea,Antonelli,Andrea Kimi Antonelli,mercedes,mercedes,Mercedes,Andrea Kimi Antonelli,Mercedes
+carlos-sainz-jr,3,9.424513,carlos-sainz-jr,Carlos,Sainz Jr.,Carlos Sainz Vázquez de Castro,williams,williams,Williams,Carlos Sainz Vázquez de Castro,Williams
+charles-leclerc,4,9.424513,charles-leclerc,Charles,Leclerc,Charles Marc Hervé Perceval Leclerc,ferrari,ferrari,Ferrari,Charles Marc Hervé Perceval Leclerc,Ferrari
+daniel-ricciardo,5,9.424513,daniel-ricciardo,Daniel,Ricciardo,Daniel Ricciardo,rb,rb,RB,Daniel Ricciardo,RB
+esteban-ocon,6,9.424513,esteban-ocon,Esteban,Ocon,Esteban Ocon,haas,haas,Haas,Esteban Ocon,Haas
+fernando-alonso,7,9.424513,fernando-alonso,Fernando,Alonso,Fernando Alonso Díaz,aston-martin,aston-martin,Aston Martin,Fernando Alonso Díaz,Aston Martin
+franco-colapinto,8,9.424513,franco-colapinto,Franco,Colapinto,Franco Alejandro Colapinto,alpine,alpine,Alpine,Franco Alejandro Colapinto,Alpine
+gabriel-bortoleto,9,9.424513,gabriel-bortoleto,Gabriel,Bortoleto,Gabriel Bortoleto Oliveira,kick-sauber,kick-sauber,Kick Sauber,Gabriel Bortoleto Oliveira,Kick Sauber
+george-russell,10,9.424513,george-russell,George,Russell,George Russell,mercedes,mercedes,Mercedes,George Russell,Mercedes
+guanyu-zhou,11,9.424513,guanyu-zhou,Guanyu,Zhou,Guanyu Zhou,kick-sauber,kick-sauber,Kick Sauber,Guanyu Zhou,Kick Sauber
+isack-hadjar,12,9.424513,isack-hadjar,Isack,Hadjar,Isack Alexandre Hadjar,racing-bulls,racing-bulls,Racing Bulls,Isack Alexandre Hadjar,Racing Bulls
+jack-doohan,13,9.424513,jack-doohan,Jack,Doohan,Jack Doohan,alpine,alpine,Alpine,Jack Doohan,Alpine
+kevin-magnussen,14,9.424513,kevin-magnussen,Kevin,Magnussen,Kevin Jan Magnussen,haas,haas,Haas,Kevin Jan Magnussen,Haas
+lance-stroll,15,9.424513,lance-stroll,Lance,Stroll,Lance Stroll,aston-martin,aston-martin,Aston Martin,Lance Stroll,Aston Martin
+lando-norris,16,9.424513,lando-norris,Lando,Norris,Lando Norris,mclaren,mclaren,McLaren,Lando Norris,McLaren
+lewis-hamilton,17,9.424513,lewis-hamilton,Lewis,Hamilton,Lewis Carl Davidson Hamilton,ferrari,ferrari,Ferrari,Lewis Carl Davidson Hamilton,Ferrari
+liam-lawson,18,9.424513,liam-lawson,Liam,Lawson,Liam Lawson,racing-bulls,racing-bulls,Racing Bulls,Liam Lawson,Racing Bulls
+logan-sargeant,19,9.424513,logan-sargeant,Logan,Sargeant,Logan Hunter Sargeant,williams,williams,Williams,Logan Hunter Sargeant,Williams
+max-verstappen,20,9.424513,max-verstappen,Max,Verstappen,Max Emilian Verstappen,red-bull,red-bull,Red Bull,Max Emilian Verstappen,Red Bull
