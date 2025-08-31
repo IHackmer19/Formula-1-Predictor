@@ -1,0 +1,15 @@
+# 1. Commit all changes
+git add .
+git commit -m "Deploy F1 Neural Network Web App to GitHub Pages"
+
+# 2. Push to GitHub
+git push origin main
+
+# 3. Enable GitHub Pages (in repository settings)
+# Go to: Settings → Pages → Source: Deploy from branch 'main' / 'docs' folder
+
+# 4. Access your live web app
+# URL: https://ihackmer19.github.io/Formula-1-Predictor
+
+# 5. Test locally first (optional)
+python3 run_web_demo.py

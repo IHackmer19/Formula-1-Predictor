@@ -1,0 +1,60 @@
+# GitHub Pages Configuration for F1 Neural Network Predictor
+
+title: "F1 Neural Network Predictor 2025"
+description: "Advanced deep learning system predicting Formula 1 driver positions using 70+ years of racing data"
+url: "https://yourusername.github.io"
+baseurl: "/f1-neural-predictor"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# GitHub Pages specific settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+author: "F1 Neural Network Team"
+twitter:
+  username: yourusername
+  card: summary_large_image
+
+social:
+  name: F1 Neural Network Predictor
+  links:
+    - https://github.com/yourusername/f1-neural-predictor
+
+# Exclude files from build
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - requirements.txt
+  - "*.py"
+  - f1_data/
+  - "*.png"
+  - "*.csv"
+
+# Include specific files
+include:
+  - docs/data/
+
+# Custom variables
+f1:
+  model_version: "1.0.0"
+  last_updated: "2025"
+  data_source: "Kaggle F1 Dataset (1950-2020)"
+  neural_network:
+    architecture: "Deep Neural Network"
+    layers: 5
+    parameters: "78,000+"
+    accuracy: "77.8% within 5 positions"

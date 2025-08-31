@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏎️ F1 Neural Network Predictor 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- PWA and SEO Meta Tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#e10600">
+    <meta name="description" content="Advanced Formula 1 position prediction using deep learning neural networks. Predict 2025 F1 race results with 77.8% accuracy.">
+    <meta name="keywords" content="Formula 1, F1, neural network, machine learning, predictions, 2025, racing, motorsport">
+    <meta name="author" content="F1 Neural Network Team">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="F1 Neural Network Predictor 2025">
+    <meta property="og:description" content="Advanced Formula 1 position prediction using deep learning neural networks">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io/f1-neural-predictor">
+    <meta property="og:image" content="https://yourusername.github.io/f1-neural-predictor/images/og-image.png">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="F1 Neural Network Predictor 2025">
+    <meta name="twitter:description" content="Advanced Formula 1 position prediction using deep learning">
+    <meta name="twitter:image" content="https://yourusername.github.io/f1-neural-predictor/images/og-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSIjMGEwYTBhIi8+Cjx0ZXh0IHg9IjE2IiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmaWxsPSIjZTEwNjAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7wn4+PPC90ZXh0Pgo8L3N2Zz4=">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="f1-car-animation">🏎️</div>
+            <h2>Loading F1 Neural Network...</h2>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🏎️</span>
+                <span class="logo-text">F1 Neural Predictor</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#predictions" class="nav-link">2025 Predictions</a></li>
+                <li><a href="#analysis" class="nav-link">Analysis</a></li>
+                <li><a href="#model" class="nav-link">Neural Network</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-main">Formula 1</span>
+                <span class="title-sub">Neural Network Predictor</span>
+                <span class="title-year">2025</span>
+            </h1>
+            <p class="hero-description">
+                Advanced deep learning system predicting F1 driver positions using 70+ years of racing data
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">3.5</div>
+                    <div class="stat-label">MAE Positions</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">77.8%</div>
+                    <div class="stat-label">Within 5 Positions</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">81K</div>
+                    <div class="stat-label">Neural Parameters</div>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('predictions')">
+                    <i class="fas fa-trophy"></i> View 2025 Predictions
+                </button>
+                <button class="btn btn-secondary" onclick="scrollToSection('model')">
+                    <i class="fas fa-brain"></i> Neural Network Details
+                </button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="f1-track">
+                <div class="track-line"></div>
+                <div class="f1-cars">
+                    <div class="car car-1">🏎️</div>
+                    <div class="car car-2">🏎️</div>
+                    <div class="car car-3">🏎️</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2025 Predictions Section -->
+    <section id="predictions" class="predictions-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-trophy"></i>
+                2025 F1 Race Predictions
+            </h2>
+            <p class="section-subtitle">Neural network predictions for the next Formula 1 race</p>
+            
+            <!-- Podium Display -->
+            <div class="podium-container">
+                <h3>🏆 Predicted Podium</h3>
+                <div class="podium">
+                    <div class="podium-position position-2">
+                        <div class="position-number">2</div>
+                        <div class="driver-info">
+                            <div class="driver-name" id="p2-driver">Lewis Hamilton</div>
+                            <div class="team-name" id="p2-team">Mercedes</div>
+                        </div>
+                        <div class="podium-step step-2">🥈</div>
+                    </div>
+                    <div class="podium-position position-1">
+                        <div class="position-number">1</div>
+                        <div class="driver-info">
+                            <div class="driver-name" id="p1-driver">Sergio Perez</div>
+                            <div class="team-name" id="p1-team">Red Bull Racing</div>
+                        </div>
+                        <div class="podium-step step-1">🥇</div>
+                    </div>
+                    <div class="podium-position position-3">
+                        <div class="position-number">3</div>
+                        <div class="driver-info">
+                            <div class="driver-name" id="p3-driver">Charles Leclerc</div>
+                            <div class="team-name" id="p3-team">Ferrari</div>
+                        </div>
+                        <div class="podium-step step-3">🥉</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full Results Table -->
+            <div class="results-container">
+                <h3>📊 Complete 2025 Predictions</h3>
+                <div class="results-controls">
+                    <button class="filter-btn active" data-filter="all">All Positions</button>
+                    <button class="filter-btn" data-filter="top10">Top 10</button>
+                    <button class="filter-btn" data-filter="points">Points Positions</button>
+                </div>
+                <div class="results-table-container">
+                    <table id="predictions-table" class="results-table">
+                        <thead>
+                            <tr>
+                                <th>Position</th>
+                                <th>Driver</th>
+                                <th>Team</th>
+                                <th>Confidence</th>
+                                <th>Points</th>
+                            </tr>
+                        </thead>
+                        <tbody id="predictions-tbody">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analysis Section -->
+    <section id="analysis" class="analysis-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-chart-line"></i>
+                Performance Analysis
+            </h2>
+            
+            <div class="analysis-grid">
+                <!-- Team Performance Chart -->
+                <div class="chart-container">
+                    <h3>🏎️ Team Performance Ranking</h3>
+                    <canvas id="team-chart"></canvas>
+                </div>
+                
+                <!-- Driver Performance Chart -->
+                <div class="chart-container">
+                    <h3>👥 Driver Performance Distribution</h3>
+                    <canvas id="driver-chart"></canvas>
+                </div>
+                
+                <!-- Model Accuracy Chart -->
+                <div class="chart-container">
+                    <h3>🎯 Model Accuracy Metrics</h3>
+                    <canvas id="accuracy-chart"></canvas>
+                </div>
+                
+                <!-- Championship Points Prediction -->
+                <div class="chart-container">
+                    <h3>🏆 Constructor Championship Prediction</h3>
+                    <canvas id="championship-chart"></canvas>
+                </div>
+            </div>
+
+            <!-- Key Insights -->
+            <div class="insights-container">
+                <h3>🔬 Key Insights</h3>
+                <div class="insights-grid">
+                    <div class="insight-card">
+                        <div class="insight-icon">🥇</div>
+                        <div class="insight-content">
+                            <h4>Championship Battle</h4>
+                            <p>Top 3 teams separated by less than 1 position on average</p>
+                        </div>
+                    </div>
+                    <div class="insight-card">
+                        <div class="insight-icon">📈</div>
+                        <div class="insight-content">
+                            <h4>Midfield Fight</h4>
+                            <p>Positions 7-14 highly competitive with close predictions</p>
+                        </div>
+                    </div>
+                    <div class="insight-card">
+                        <div class="insight-icon">🎯</div>
+                        <div class="insight-content">
+                            <h4>Model Confidence</h4>
+                            <p>77.8% accuracy within 5 positions demonstrates strong performance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Neural Network Section -->
+    <section id="model" class="model-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-brain"></i>
+                Neural Network Architecture
+            </h2>
+            
+            <div class="model-grid">
+                <div class="model-info">
+                    <h3>🧠 Deep Learning Architecture</h3>
+                    <div class="architecture-diagram">
+                        <div class="layer input-layer">
+                            <div class="layer-title">Input Layer</div>
+                            <div class="layer-desc">24 Features</div>
+                        </div>
+                        <div class="layer hidden-layer">
+                            <div class="layer-title">Hidden Layer 1</div>
+                            <div class="layer-desc">128 Neurons</div>
+                        </div>
+                        <div class="layer hidden-layer">
+                            <div class="layer-title">Hidden Layer 2</div>
+                            <div class="layer-desc">256 Neurons</div>
+                        </div>
+                        <div class="layer hidden-layer">
+                            <div class="layer-title">Hidden Layer 3</div>
+                            <div class="layer-desc">128 Neurons</div>
+                        </div>
+                        <div class="layer hidden-layer">
+                            <div class="layer-title">Hidden Layer 4</div>
+                            <div class="layer-desc">64 Neurons</div>
+                        </div>
+                        <div class="layer output-layer">
+                            <div class="layer-title">Output Layer</div>
+                            <div class="layer-desc">Position 1-20</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="model-features">
+                    <h3>🔧 Key Features</h3>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-history"></i>
+                            <span>Historical Performance (5 & 10 race averages)</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Season Statistics</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>Career Achievements (wins, podiums)</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-flag-checkered"></i>
+                            <span>Circuit-Specific Performance</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-car"></i>
+                            <span>Constructor Performance</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-stopwatch"></i>
+                            <span>Qualifying Position</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Model Performance -->
+            <div class="performance-metrics">
+                <h3>📊 Model Performance</h3>
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-value">3.56</div>
+                        <div class="metric-label">Mean Absolute Error</div>
+                        <div class="metric-desc">Average prediction error in positions</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">58.5%</div>
+                        <div class="metric-label">Within 3 Positions</div>
+                        <div class="metric-desc">Predictions within 3 positions of actual</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">77.8%</div>
+                        <div class="metric-label">Within 5 Positions</div>
+                        <div class="metric-desc">High accuracy for motorsport prediction</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">78K</div>
+                        <div class="metric-label">Parameters</div>
+                        <div class="metric-desc">Neural network complexity</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-info-circle"></i>
+                About the Project
+            </h2>
+            
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>🎯 Project Overview</h3>
+                    <p>
+                        This advanced neural network system predicts Formula 1 driver positions for the 2025 season 
+                        using deep learning techniques applied to historical F1 data from 1950-2020.
+                    </p>
+                    
+                    <h3>📊 Data Source</h3>
+                    <p>
+                        Based on the comprehensive <strong>Formula 1 World Championship (1950-2020)</strong> dataset 
+                        from Kaggle by rohanrao, featuring over 25,000 race results and 70+ years of F1 history.
+                    </p>
+                    
+                    <h3>🧠 Technology Stack</h3>
+                    <ul class="tech-list">
+                        <li><strong>TensorFlow/Keras</strong> - Deep learning framework</li>
+                        <li><strong>Python</strong> - Data processing and model training</li>
+                        <li><strong>Scikit-learn</strong> - Data preprocessing and evaluation</li>
+                        <li><strong>Pandas/NumPy</strong> - Data manipulation</li>
+                        <li><strong>HTML/CSS/JavaScript</strong> - Web interface</li>
+                        <li><strong>Chart.js</strong> - Data visualization</li>
+                    </ul>
+                </div>
+                
+                <div class="about-features">
+                    <h3>🚀 Key Features</h3>
+                    <div class="feature-cards">
+                        <div class="feature-card">
+                            <div class="feature-icon">🏁</div>
+                            <h4>Real-time Predictions</h4>
+                            <p>Instant position predictions for all 20 F1 drivers</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">📈</div>
+                            <h4>Historical Analysis</h4>
+                            <p>Leverages decades of F1 performance data</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🎯</div>
+                            <h4>High Accuracy</h4>
+                            <p>Advanced deep learning for precise predictions</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">📱</div>
+                            <h4>Responsive Design</h4>
+                            <p>Optimized for desktop, tablet, and mobile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- GitHub Integration -->
+            <div class="github-integration">
+                <h3>💻 GitHub Integration</h3>
+                <p>This web app is fully integrated with GitHub Pages for seamless deployment and updates.</p>
+                <div class="github-buttons">
+                    <a href="https://github.com/yourusername/f1-neural-predictor" class="btn btn-github" target="_blank">
+                        <i class="fab fa-github"></i> View Source Code
+                    </a>
+                    <a href="https://github.com/yourusername/f1-neural-predictor/releases" class="btn btn-github" target="_blank">
+                        <i class="fas fa-download"></i> Download Model
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>🏎️ F1 Neural Predictor</h4>
+                    <p>Advanced Formula 1 position prediction using deep learning</p>
+                </div>
+                <div class="footer-section">
+                    <h4>📊 Data Source</h4>
+                    <p>Kaggle F1 Dataset (1950-2020) by rohanrao</p>
+                </div>
+                <div class="footer-section">
+                    <h4>🔗 Links</h4>
+                    <div class="footer-links">
+                        <a href="https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020">Dataset</a>
+                        <a href="https://github.com/yourusername/f1-neural-predictor">GitHub</a>
+                        <a href="mailto:contact@example.com">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 F1 Neural Predictor. Built with ❤️ for Formula 1 fans.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/predictions.js"></script>
+</body>
+</html>
