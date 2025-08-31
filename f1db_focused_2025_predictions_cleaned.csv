@@ -1,0 +1,22 @@
+driver,constructor,predicted_position,confidence,position
+Max Verstappen,Red Bull,2,0.78516346,1
+Lando Norris,McLaren,2,0.6810596,2
+Oscar Piastri,McLaren,2,0.80001616,3
+George Russell,Mercedes,3,0.7330199,4
+Charles Leclerc,Ferrari,4,0.90690887,5
+Lewis Hamilton,Ferrari,4,0.89308536,6
+Andrea Kimi Antonelli,Mercedes,4,0.95833796,7
+Liam Lawson,Red Bull,7,0.9926214,8
+Yuki Tsunoda,Red Bull,9,0.9930656,9
+Fernando Alonso,Aston Martin,9,0.687498,10
+Pierre Gasly,Alpine,9,0.6816438,11
+Lance Stroll,Aston Martin,10,0.69096726,12
+Alexander Albon,Williams,11,0.68915623,13
+Nico Hülkenberg,Kick Sauber,11,0.6934444,14
+Oliver Bearman,Haas,11,0.99398816,15
+Isack Hadjar,Racing Bulls,11,0.81232065,16
+Carlos Sainz,Williams,12,0.7033019,17
+Gabriel Bortoleto,Kick Sauber,12,0.6899929,18
+Esteban Ocon,Haas,12,0.92368704,19
+Franco Colapinto,Alpine,14,0.9048583,20
+Jack Doohan,Alpine,18,0.83685505,21

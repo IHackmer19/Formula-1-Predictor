@@ -11,48 +11,48 @@
   },
   {
     "position": 3,
-    "driver": "Sergio P\u00e9rez",
-    "team": "Red Bull"
+    "driver": "Oscar Piastri",
+    "team": "McLaren"
   },
   {
     "position": 4,
-    "driver": "Charles Leclerc",
-    "team": "Ferrari"
-  },
-  {
-    "position": 5,
-    "driver": "Lewis Hamilton",
-    "team": "Ferrari"
-  },
-  {
-    "position": 6,
     "driver": "George Russell",
     "team": "Mercedes"
   },
   {
+    "position": 5,
+    "driver": "Charles Leclerc",
+    "team": "Ferrari"
+  },
+  {
+    "position": 6,
+    "driver": "Lewis Hamilton",
+    "team": "Ferrari"
+  },
+  {
     "position": 7,
-    "driver": "Carlos Sainz",
-    "team": "Williams"
+    "driver": "Andrea Kimi Antonelli",
+    "team": "Mercedes"
   },
   {
     "position": 8,
+    "driver": "Liam Lawson",
+    "team": "Red Bull"
+  },
+  {
+    "position": 9,
+    "driver": "Yuki Tsunoda",
+    "team": "Red Bull"
+  },
+  {
+    "position": 10,
     "driver": "Fernando Alonso",
     "team": "Aston Martin"
   },
   {
-    "position": 9,
-    "driver": "Esteban Ocon",
-    "team": "Alpine"
-  },
-  {
-    "position": 10,
+    "position": 11,
     "driver": "Pierre Gasly",
     "team": "Alpine"
-  },
-  {
-    "position": 11,
-    "driver": "Daniel Ricciardo",
-    "team": "Racing Bulls"
   },
   {
     "position": 12,
@@ -61,37 +61,47 @@
   },
   {
     "position": 13,
-    "driver": "Yuki Tsunoda",
-    "team": "Racing Bulls"
-  },
-  {
-    "position": 14,
     "driver": "Alexander Albon",
     "team": "Williams"
   },
   {
-    "position": 15,
-    "driver": "Valtteri Bottas",
+    "position": 14,
+    "driver": "Nico H\u00fclkenberg",
     "team": "Kick Sauber"
+  },
+  {
+    "position": 15,
+    "driver": "Oliver Bearman",
+    "team": "Haas"
   },
   {
     "position": 16,
-    "driver": "Nico H\u00fclkenberg",
-    "team": "Haas"
+    "driver": "Isack Hadjar",
+    "team": "Racing Bulls"
   },
   {
     "position": 17,
-    "driver": "Guanyu Zhou",
-    "team": "Kick Sauber"
+    "driver": "Carlos Sainz",
+    "team": "Williams"
   },
   {
     "position": 18,
-    "driver": "Kevin Magnussen",
-    "team": "Haas"
+    "driver": "Gabriel Bortoleto",
+    "team": "Kick Sauber"
   },
   {
     "position": 19,
-    "driver": "Logan Sargeant",
-    "team": "Williams"
+    "driver": "Esteban Ocon",
+    "team": "Haas"
+  },
+  {
+    "position": 20,
+    "driver": "Franco Colapinto",
+    "team": "Alpine"
+  },
+  {
+    "position": 21,
+    "driver": "Jack Doohan",
+    "team": "Alpine"
   }
 ]

@@ -1,20 +1,24 @@
 driver,constructor,predicted_position,confidence
-Max Verstappen,Red Bull,4,0.7325106
-Lando Norris,McLaren,4,0.6944417
-Sergio Pérez,Red Bull,5,0.8055807
-Charles Leclerc,Ferrari,5,0.8706717
-Lewis Hamilton,Ferrari,5,0.8328592
-George Russell,Mercedes,5,0.82193035
-Carlos Sainz,Williams,7,0.80310404
-Fernando Alonso,Aston Martin,7,0.69553334
-Esteban Ocon,Alpine,9,0.9033584
-Pierre Gasly,Alpine,9,0.8891678
-Daniel Ricciardo,Racing Bulls,10,0.756574
-Lance Stroll,Aston Martin,11,0.68061155
-Yuki Tsunoda,Racing Bulls,12,0.92047125
-Alexander Albon,Williams,13,0.7370334
-Valtteri Bottas,Kick Sauber,13,0.79086363
-Nico Hülkenberg,Haas,13,0.7696615
-Guanyu Zhou,Kick Sauber,14,0.8897918
-Kevin Magnussen,Haas,15,0.8406059
-Logan Sargeant,Williams,17,0.74215925
+Max Verstappen,Red Bull,2,0.78516346
+Lando Norris,McLaren,2,0.6810596
+Oscar Piastri,McLaren,2,0.80001616
+George Russell,Mercedes,3,0.7330199
+Charles Leclerc,Ferrari,4,0.90690887
+Lewis Hamilton,Ferrari,4,0.89308536
+Andrea Kimi Antonelli,Mercedes,4,0.95833796
+Liam Lawson,Red Bull,7,0.9926214
+Yuki Tsunoda,Red Bull,9,0.9930656
+Fernando Alonso,Aston Martin,9,0.687498
+Pierre Gasly,Alpine,9,0.6816438
+Lance Stroll,Aston Martin,10,0.69096726
+Alexander Albon,Williams,11,0.68915623
+Nico Hülkenberg,Kick Sauber,11,0.6934444
+Oliver Bearman,Haas,11,0.99398816
+Isack Hadjar,Racing Bulls,11,0.81232065
+Liam Lawson,Racing Bulls,11,0.8994684
+Carlos Sainz,Williams,12,0.7033019
+Gabriel Bortoleto,Kick Sauber,12,0.6899929
+Esteban Ocon,Haas,12,0.92368704
+Yuki Tsunoda,Racing Bulls,12,0.8842161
+Franco Colapinto,Alpine,14,0.9048583
+Jack Doohan,Alpine,18,0.83685505
